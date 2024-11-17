@@ -4,7 +4,7 @@ using WeatherAPI.Models;
 using Serilog;
 
 // UPDATE BEFORE DEPLOYMENT
-var DEPLOYED_FRONTEND_URL = "https://agreeable-rock-027c1af1e.5.azurestaticapps.net/";
+var DEPLOYED_FRONTEND_URL = "https://agreeable-rock-027c1af1e.5.azurestaticapps.net";
 
 var builder = WebApplication.CreateBuilder(args);
 

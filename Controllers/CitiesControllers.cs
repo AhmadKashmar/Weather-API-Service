@@ -55,7 +55,6 @@ namespace WeatherAPI.Controllers
                     TotalRecords = totalRecords,
                     Data = cities
                 };
-
                 return Ok(response);
             }
             catch (Exception ex)

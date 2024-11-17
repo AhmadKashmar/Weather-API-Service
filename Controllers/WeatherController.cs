@@ -28,7 +28,7 @@ namespace WeatherAPI.Controllers
                 return BadRequest("City name must be provided.");
             }
 
-            var apiKey = _configuration["OpenWeatherMap:ApiKey"];
+            var apiKey = _configuration["OpenWeatherMapApiKey"];
             if (string.IsNullOrEmpty(apiKey))
             {
                 return StatusCode(500, "OpenWeatherMap API key is not configured.");

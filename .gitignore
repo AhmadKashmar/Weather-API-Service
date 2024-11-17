@@ -1,5 +1,7 @@
 *.sln
 bin/
 obj/
-*.json
 logs/
+.env
+.vscode/
+.config/
